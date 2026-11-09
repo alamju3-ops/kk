@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Exclude scraped or cached external domains
+_DataURI/
+*.google/
+*.google.com/
+*.google.co.kr/
+*.doubleclick.net/
+*.googlesyndication.com/
+*.googletagmanager.com/
+*.gstatic.com/
+www.wimouniv.com/
